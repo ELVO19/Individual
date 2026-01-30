@@ -4,7 +4,83 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Jokatom Bootstrap</title>
+  <title>Elvo's</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f5f5;
+      color: black;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #10b981;
+      padding: 40px;
+      border-radius: 8px;
+      color: black;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+      color: #060606;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-top: 40px;
+      color: red;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: red;
+    }
+
+    .section {
+      margin-top: 20px;
+      color: red;
+    }
+
+    .item {
+      margin-bottom: 20px;
+    }
+
+    .item h3 {
+      margin: 0;
+      color: red;
+    }
+
+    .item span {
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    ul {
+      margin: 10px 0 0 20px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .skill {
+      background: #10b981;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+
+
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -23,6 +99,7 @@
 
   <link href="assets/css/main.css" rel="stylesheet">
 
+
 </head>
 
 <body class="index-page">
@@ -32,7 +109,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
 
-        <h1 class="sitename">Jokatom</h1>
+        <h1 class="sitename">Elvo Enterprise</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -41,22 +118,22 @@
           <li><a href="#about">About</a></li>
           <li><a href="#resume">Resume</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="#portfolio">Gallery</a></li>
+          <li class="dropdown"><a href="#"><span>We offer</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Instructor</a></li>
-              <li class="dropdown"><a href="#"><span>Courses</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li><a href="#">For Skilled Students</a></li>
+              <li class="dropdown"><a href="#"><span>Their services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#">Computer</a></li>
-                  <li><a href="#">Drawing & design</a></li>
-                  <li><a href="#">Art and craft</a></li>
-                  <li><a href="#">Painting</a></li>
-                  <li><a href="#">Homescience</a></li>
+                  <li><a href="#">Art & Design</a></li>
+                  <li><a href="#">Building and Construction</a></li>
+                  <li><a href="#">Computer packages</a></li>
+                  <li><a href="#">Home Science</a></li>
+                  <li><a href="#">Agriculture</a></li>
                 </ul>
               </li>
-              <li><a href="#">Developer</a></li>
-              <li><a href="#">Music</a></li>
-              <li><a href="#">Photography</a></li>
+              <li><a href="#">School Dropouts</a></li>
+              <li><a href="#">Campus Students</a></li>
+              <li><a href="#">High school </a></li>
             </ul>
           </li>
           <li><a href="#contact">Contact</a></li>
@@ -64,28 +141,26 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#about">Get Started</a>
+      <a class="btn-getstarted" href="#about">Join us</a>
 
     </div>
   </header>
 
   <main class="main">
 
-
     <section id="hero" class="hero section light-background">
 
-      <img src="assets/img/person/man-2442565_1280.jpg" alt="" data-aos="fade-in">
+      <img src="assets/img/person/ai-generated-8544736_1280.jpg" alt="" data-aos="fade-out">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container" data-aos="fade-left" data-aos-delay="100">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
-            <h2>Hi, I'm Job Onyango</h2>
-            <p>I'm a <span class="typed" data-typed-items="Teacher, Developer, Photographer"></span><span class="typed-cursor" aria-hidden="true"></span></p>
+            <h2>Hello there, I'm Elvis Okeyo</h2>
+            <p>I'm a <span class="typed" data-typed-items="Teacher, Developer, Farmer, Musician"></span><span class="typed-cursor" aria-hidden="true"></span></p>
             <div class="social-links">
               <a href="#"><i class="bi bi-twitter-x"></i></a>
               <a href="#"><i class="bi bi-facebook"></i></a>
               <a href="#"><i class="bi bi-instagram"></i></a>
-
             </div>
           </div>
         </div>
@@ -96,86 +171,95 @@
 
     <section id="about" class="about section">
 
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title" data-aos="fade-down">
         <span class="subtitle">About Me</span>
         <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, dolore obcaecati provident quis sed unde. Aliquid, aut, cum dolorem earum ex fugiat, inventore magni maiores modi quasi quo tempore veniam.  Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
-      </div>
+        <p>I’m a developer, teacher, and musician with a strong passion for building, learning, and sharing knowledge. My work lives at the intersection of logic and creativity, where technology meets education and artistic expression.
+
+As a developer, I enjoy designing and building reliable, user-focused solutions. I’m driven by problem-solving and the satisfaction that comes from turning ideas into working systems. I care deeply about clean code, thoughtful architecture, and creating software that is both practical and meaningful.
+
+Teaching is a core part of who I am. I enjoy breaking down complex concepts into clear, approachable ideas and helping others gain confidence in their skills. Whether I’m teaching programming, technology, or creative thinking, I focus on clarity, patience, and real-world understanding. I believe learning works best when it’s engaging, supportive, and grounded in curiosity.
+
+Music is my creative outlet and a constant source of inspiration. Being a musician has shaped how I think—about rhythm, structure, and emotion—and those ideas often influence the way I approach both development and teaching. Music keeps me balanced, creative, and open to new perspectives.
+
+Across all three disciplines, I value continuous learning, collaboration, and growth. I’m always looking for opportunities to improve my craft, explore new ideas, and contribute in ways that make a positive impact. Whether I’m writing code, guiding a student, or creating music, my goal is the same: to build, to communicate, and to create with intention.</p>
+      </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-5">
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="150">
+          <div class="col-lg-4" data-aos="zoom-out" data-aos-delay="150">
             <div class="profile-card">
               <div class="profile-header">
                 <div class="profile-avatar">
-                  <img src="assets/img/person/lady-4628418_1280.jpg" class="img-fluid" alt="">
+                  <img src="assets/img/person/WhatsApp Image 2026-01-30 at 1.38.55 PM.jpeg" class="img-fluid" alt="">
                   <div class="status-indicator"></div>
                 </div>
-                <h3>Sheba Amani</h3>
-                <span class="role">Head Musician</span>
+                <h3>Elvis Okeyo</h3>
+                <span class="role">Lecturer</span>
                 <div class="rating">
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-half"></i>
-                  <span>4.8</span>
+                  <span>5.5</span>
                 </div>
               </div>
 
               <div class="profile-stats">
                 <div class="stat-item">
-                  <h4>156</h4>
+                  <h4>111</h4>
                   <p>Projects</p>
                 </div>
                 <div class="stat-item">
-                  <h4>8+</h4>
+                  <h4>13 </h4>
                   <p>Years</p>
                 </div>
                 <div class="stat-item">
-                  <h4>42</h4>
+                  <h4>36</h4>
                   <p>Awards</p>
                 </div>
               </div>
 
               <div class="profile-actions">
                 <a href="#" class="btn-primary"><i class="bi bi-download"></i> Download CV</a>
-                <a href="#" class="btn-secondary"><i class="bi bi-envelope"></i> Contact</a>
+                <a href="#" class="btn-secondary"><i class="bi bi-envelope"></i> Contact Him</a>
               </div>
 
               <div class="social-connect">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
-                <a href="#"><i class="bi bi-github"></i></a>
+                 <a href="#"><i class="bi bi-facebook"></i></a>
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-instagram"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-8" data-aos="fade-left" data-aos-delay="200">
+          <div class="col-lg-8" data-aos="fade-right" data-aos-delay="200">
             <div class="content-wrapper">
               <div class="bio-section">
                 <div class="section-tag">About Me</div>
-                <h2>Music through your bloodstreams</h2>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+                <h2>Bringing Ideas & Skill into Reality</h2>
+               <p> Developer by practice, teacher by passion, musician by heart.
+I build software, guide others through the learning process, and create music as a way to explore ideas beyond the screen. These worlds constantly influence each other—code teaches structure, teaching builds empathy, and music keeps everything creative.</p>
+                <p>I’m a developer, teacher, and musician who enjoys creating, learning, and helping others grow—through code, education, and sound.</p>
               </div>
 
               <div class="details-grid">
-                <div class="detail-item" data-aos="fade-up" data-aos-delay="250">
+                <div class="detail-item" data-aos="fade-down" data-aos-delay="250">
                   <i class="bi bi-briefcase"></i>
                   <div class="detail-content">
                     <span>Experience</span>
-                    <strong>12 Years</strong>
+                    <strong>13 years</strong>
                   </div>
                 </div>
 
-                <div class="detail-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="detail-item" data-aos="fade-down" data-aos-delay="300">
                   <i class="bi bi-mortarboard"></i>
                   <div class="detail-content">
                     <span>Degree</span>
-                    <strong>Master of Music</strong>
+                    <strong>Master of Science & Technology</strong>
                   </div>
                 </div>
 
@@ -183,7 +267,7 @@
                   <i class="bi bi-geo-alt"></i>
                   <div class="detail-content">
                     <span>Based In</span>
-                    <strong>Migori , Nyanza</strong>
+                    <strong>Goldfiels, Kisumu</strong>
                   </div>
                 </div>
 
@@ -191,35 +275,34 @@
                   <i class="bi bi-envelope"></i>
                   <div class="detail-content">
                     <span>Email</span>
-                    <strong>amanisheba312@gmail.com</strong>
+                    <strong>otieno327@gmail.com</strong>
                   </div>
                 </div>
 
-                <div class="detail-item" data-aos="fade-up" data-aos-delay="150">
+                <div class="detail-item" data-aos="fade-down" data-aos-delay="150">
                   <i class="bi bi-phone"></i>
                   <div class="detail-content">
                     <span>Phone</span>
-                    <strong>0745678937</strong>
+                    <strong>0745678990</strong>
                   </div>
                 </div>
 
-                <div class="detail-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="detail-item" data-aos="fade-down" data-aos-delay="200">
                   <i class="bi bi-calendar-check"></i>
                   <div class="detail-content">
                     <span>Availability</span>
-                    <strong>Open to Work</strong>
+                    <strong>Open Mon-Fri</strong>
                   </div>
                 </div>
               </div>
 
               <div class="skills-showcase" data-aos="fade-up" data-aos-delay="250">
                 <div class="section-tag">Core Skills</div>
-                <h3>Technical Proficiency</h3>
 
                 <div class="skills-list skills-animation">
                   <div class="skill-item">
                     <div class="skill-info">
-                      <span class="skill-name">Music</span>
+                      <span class="skill-name">Delivery</span>
                       <span class="skill-percent">95%</span>
                     </div>
                     <div class="progress">
@@ -229,7 +312,7 @@
 
                   <div class="skill-item">
                     <div class="skill-info">
-                      <span class="skill-name">Piano</span>
+                      <span class="skill-name">Teaching</span>
                       <span class="skill-percent">90%</span>
                     </div>
                     <div class="progress">
@@ -239,7 +322,7 @@
 
                   <div class="skill-item">
                     <div class="skill-info">
-                      <span class="skill-name">Guitar</span>
+                      <span class="skill-name">sport</span>
                       <span class="skill-percent">88%</span>
                     </div>
                     <div class="progress">
@@ -247,24 +330,6 @@
                     </div>
                   </div>
 
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">Trumpet</span>
-                      <span class="skill-percent">85%</span>
-                    </div>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">Violin</span>
-                      <span class="skill-percent">80%</span>
-                    </div>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -278,76 +343,89 @@
 
     <section id="resume" class="resume section">
 
+
       <div class="container section-title" data-aos="fade-up">
         <span class="subtitle">Resume</span>
         <h2>Resume</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+        <p>Designed, developed, and maintained applications with a focus on performance and usability
+
+Collaborated with teams or clients to gather requirements and deliver solutions
+
+Wrote clean, maintainable, and well-documented code
+
+Debugged issues and improved existing systems</p>
       </div>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="container">
+    <h1>Elvis Okeyo</h1>
+    <p class="subtitle">Developer | Teacher | Musician</p>
 
-        <div class="row gy-5">
-          <div class="col-lg-6">
-            <div class="experience-section">
-              <div class="section-header" data-aos="fade-right" data-aos-delay="200">
-                <div class="header-content">
-                  <span class="section-badge">Experience</span>
-                  <h2>Professional Journey</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-              </div>
+    <div class="section">
+      <h2>Professional Summary</h2>
+      <p>
+        Developer, teacher, and musician with a passion for building software,
+        sharing knowledge, and creating meaningful experiences. Skilled in
+        problem-solving, communication, and creative thinking across technical
+        and artistic domains.
+      </p>
+    </div>
 
-              <div class="experience-cards">
-                <div class="exp-card featured" data-aos="zoom-in" data-aos-delay="300">
-                  <div class="card-header">
-                    <div class="company-logo">
-                      <i class="bi bi-buildings"></i>
-                    </div>
-                    <div class="period-badge">Current</div>
-                  </div>
-                  <div class="card-body">
-                    <h3>Senior Creative Director</h3>
-                    <p class="company-name">Digital Innovation Labs</p>
-                    <span class="duration">2023 - Present</span>
-                    <p class="description">Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute.</p>
-                    <div class="skills-tags">
-                      <span class="skill-tag">Leadership</span>
-                      <span class="skill-tag">Strategy</span>
-                      <span class="skill-tag">Innovation</span>
-                    </div>
-                  </div>
-                </div>
+    <div class="section">
+      <h2>Experience</h2>
 
-                <div class="exp-card" data-aos="zoom-in" data-aos-delay="350">
-                  <div class="card-header">
-                    <div class="company-logo">
-                      <i class="bi bi-laptop"></i>
-                    </div>
-                  </div>
-                  <div class="card-body">
-                    <h3>Product Design Lead</h3>
-                    <p class="company-name">TechForward Solutions</p>
-                    <span class="duration">2020 - 2023</span>
-                    <p class="description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
-                  </div>
-                </div>
+      <div class="item">
+        <h3>Developer</h3>
+        <span>Company / Freelance · 202X – Present</span>
+        <ul>
+          <li>Built and maintained web applications and software solutions</li>
+          <li>Worked with modern tools and frameworks</li>
+          <li>Focused on clean, maintainable, and efficient code</li>
+        </ul>
+      </div>
 
-                <div class="exp-card" data-aos="zoom-in" data-aos-delay="400">
-                  <div class="card-header">
-                    <div class="company-logo">
-                      <i class="bi bi-palette"></i>
-                    </div>
-                  </div>
-                  <div class="card-body">
-                    <h3>UX Designer</h3>
-                    <p class="company-name">Creative Studio Inc</p>
-                    <span class="duration">2017 - 2020</span>
-                    <p class="description">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="item">
+        <h3>Teacher / Instructor</h3>
+        <span>Institution · 202X – Present</span>
+        <ul>
+          <li>Taught programming and technical concepts</li>
+          <li>Created structured lessons and learning materials</li>
+          <li>Mentored students and encouraged problem-solving</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <h3>Musician</h3>
+        <span>Independent / Band</span>
+        <ul>
+          <li>Performed and composed music</li>
+          <li>Collaborated with other musicians</li>
+          <li>Applied creativity across disciplines</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">JavaScript</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">Python</div>
+        <div class="skill">Teaching</div>
+        <div class="skill">Music</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <div class="item">
+        <h3>Degree / Certification</h3>
+        <span>Institution · Year</span>
+      </div>
+    </div>
+  </div>
+
+
 
           <div class="col-lg-6">
             <div class="education-section">
@@ -355,7 +433,7 @@
                 <div class="header-content">
                   <span class="section-badge">Education</span>
                   <h2>Academic Background</h2>
-                  <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum.</p>
+                  <p>I have a strong academic foundation in technology, education, and the arts, which supports my work as a developer, teacher, and musician. My studies focused on building technical skills, developing analytical thinking, and understanding effective learning methodologies, while also exploring creative expression through music.</p>
                 </div>
               </div>
 
@@ -372,10 +450,10 @@
                       </div>
                       <h4>Master of Design Innovation</h4>
                       <p class="institution">Institute of Creative Arts</p>
-                      <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore.</p>
+                      <p class="description">Throughout my academic journey, I engaged in both theoretical and practical learning, including programming, software development, problem-solving, pedagogy, and music studies. This multidisciplinary background has helped me develop a balanced approach that combines structure, creativity, and communication.</p>
                       <div class="achievement">
                         <i class="bi bi-award"></i>
-                        <span>Summa Cum Laude</span>
+                        <span>Meet</span>
                       </div>
                     </div>
                   </div>
@@ -391,7 +469,7 @@
                       </div>
                       <h4>Bachelor of Fine Arts</h4>
                       <p class="institution">Creative Arts University</p>
-                      <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                      <p class="description">In addition to formal education, I actively pursue continuous learning through independent study, projects, and hands-on experience. I regularly explore new technologies, teaching methods, and creative practices to stay current and adaptable in fast-evolving technical and artistic fields..</p>
                     </div>
                   </div>
 
@@ -407,7 +485,7 @@
                       <h4>Professional Certifications</h4>
                       <div class="certifications-list">
                         <div class="cert-item">
-                          <span class="cert-name">Advanced UX Research</span>
+                          <span class="cert-name">Full Stack Web Development Certificate</span>
                           <span class="cert-year">2023</span>
                         </div>
                         <div class="cert-item">
@@ -415,7 +493,7 @@
                           <span class="cert-year">2022</span>
                         </div>
                         <div class="cert-item">
-                          <span class="cert-name">Digital Strategy</span>
+                          <span class="cert-name">JavaScript Programming Certificate</span>
                           <span class="cert-year">2021</span>
                         </div>
                       </div>
@@ -437,7 +515,7 @@
       <div class="container section-title" data-aos="fade-up">
         <span class="subtitle">Services</span>
         <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+        <p>I offer a range of services that combine technology, education, and creativity. My work includes custom web and software development, front-end and back-end solutions, website maintenance, and technical consulting. I also provide programming lessons, one-on-one mentorship, and workshops designed to make complex concepts clear and approachable. In addition, I offer music-related services such as composition, performance, production, and music education. Whether working on a technical project, teaching a skill, or creating music, I focus on quality, clarity, and meaningful results.</p>
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -448,8 +526,7 @@
               <div class="icon-wrapper">
                 <i class="bi bi-palette"></i>
               </div>
-              <h4>Brand Identity</h4>
-              <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus vivamus magna.</p>
+              <h4>Sound Design</h4>
               <a href="service-details.html" class="read-more">
                 <span>Explore</span>
                 <i class="bi bi-arrow-right"></i>
@@ -463,8 +540,7 @@
               <div class="icon-wrapper">
                 <i class="bi bi-layout-text-window-reverse"></i>
               </div>
-              <h4>Art & Design</h4>
-              <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui donec rutrum.</p>
+              <h4>Music Production</h4>
               <a href="service-details.html" class="read-more">
                 <span>Explore</span>
                 <i class="bi bi-arrow-right"></i>
@@ -478,7 +554,6 @@
                 <i class="bi bi-code-slash"></i>
               </div>
               <h4>Development</h4>
-              <p>Praesent sapien massa convallis a pellentesque nec egestas non nisi cras ornare arcu.</p>
               <a href="service-details.html" class="read-more">
                 <span>Explore</span>
                 <i class="bi bi-arrow-right"></i>
@@ -491,8 +566,7 @@
               <div class="icon-wrapper">
                 <i class="bi bi-phone"></i>
               </div>
-              <h4>Mobile Apps</h4>
-              <p>Vivamus suscipit tortor eget felis porttitor volutpat quisque velit nisi pretium ut lacinia.</p>
+              <h4>Educational Software Development</h4>
               <a href="service-details.html" class="read-more">
                 <span>Explore</span>
                 <i class="bi bi-arrow-right"></i>
@@ -506,7 +580,6 @@
                 <i class="bi bi-megaphone"></i>
               </div>
               <h4>Digital Marketing</h4>
-              <p>Nulla porttitor accumsan tincidunt curabitur aliquet quam id dui posuere blandit mauris.</p>
               <a href="service-details.html" class="read-more">
                 <span>Explore</span>
                 <i class="bi bi-arrow-right"></i>
@@ -519,8 +592,7 @@
               <div class="icon-wrapper">
                 <i class="bi bi-search"></i>
               </div>
-              <h4>SEO Services</h4>
-              <p>Pellentesque in ipsum id orci porta dapibus donec sollicitudin molestie malesuada proin.</p>
+              <h4>Creative Technology Solutions</h4>
               <a href="service-details.html" class="read-more">
                 <span>Explore</span>
                 <i class="bi bi-arrow-right"></i>
@@ -534,7 +606,6 @@
                 <i class="bi bi-graph-up-arrow"></i>
               </div>
               <h4>Analytics</h4>
-              <p>Sed porttitor lectus nibh curabitur arcu erat accumsan id imperdiet et porttitor at sem.</p>
               <a href="service-details.html" class="read-more">
                 <span>Explore</span>
                 <i class="bi bi-arrow-right"></i>
@@ -547,8 +618,7 @@
               <div class="icon-wrapper">
                 <i class="bi bi-shield-check"></i>
               </div>
-              <h4>Security</h4>
-              <p>Vivamus magna justo lacinia eget consectetur sed convallis at tellus mauris blandit aliquet.</p>
+              <h4>Educational Consulting</h4>
               <a href="service-details.html" class="read-more">
                 <span>Explore</span>
                 <i class="bi bi-arrow-right"></i>
@@ -564,10 +634,10 @@
               <div class="row align-items-center">
                 <div class="col-lg-8">
                   <h3>Transform Your Vision Into Reality</h3>
-                  <p>Partner with us to bring your ideas to life with innovative solutions tailored to your needs</p>
+                  <p>Join us to bring your ideas to life with innovative solutions tailored to your needs</p>
                 </div>
                 <div class="col-lg-4 text-lg-end text-center">
-                  <a href="service-details.html" class="cta-btn">Start Your Project</a>
+                  <a href="service-details.html" class="cta-btn">Start Working</a>
                 </div>
               </div>
             </div>
@@ -578,21 +648,21 @@
 
     </section>
 
-    <section id="gallery" class="gallery section">
+    <section id="portfolio" class="portfolio section">
 
       <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">Gallery</span>
-        <h2>Gallery</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+        <span class="subtitle">Our Gallery</span>
+        <h2>gallery</h2>
+        <p>This gallery is a visual snapshot of my work and process—from code and classrooms to music and creative experiments. Each image or project tells part of my story and reflects the blend of structure, creativity, and passion behind what I do.</p>
       </div>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container" data-aos="fade-right" data-aos-delay="200">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
             <li data-filter="*" class="filter-active">All Work</li>
-            <li data-filter=".filter-creative">Creative</li>
-            <li data-filter=".filter-digital">Digital</li>
+            <li data-filter=".filter-creative">Skills</li>
+            <li data-filter=".filter-digital">Music</li>
             <li data-filter=".filter-strategy">Strategy</li>
             <li data-filter=".filter-development">Development</li>
           </ul>
@@ -601,14 +671,14 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-creative">
               <div class="portfolio-card">
                 <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/portfolio-1.webp" alt="Creative Project" class="img-fluid" loading="lazy">
-                  <div class="gallery-overlay">
-                    <div class="gallery-info">
+                  <img src="assets/img/portfolio/coding-1853305_1280.jpg" alt="Creative Project" class="img-fluid" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
                       <span class="project-category">Creative Design</span>
                       <h4>Visual Identity System</h4>
                     </div>
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-1.webp" class="glightbox portfolio-link">
+                      <a href="assets/img/portfolio/hands-1851426_1280.jpg" class="glightbox portfolio-link">
                         <i class="bi bi-plus-lg"></i>
                       </a>
                       <a href="#" class="portfolio-details">
@@ -630,14 +700,14 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-digital">
               <div class="portfolio-card">
                 <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/portfolio-2.webp" alt="Digital Project" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/playstation-1845880_1280.jpg" alt="Digital Project" class="img-fluid" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-info">
                       <span class="project-category">Digital Experience</span>
                       <h4>Interactive Web Platform</h4>
                     </div>
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-2.webp" class="glightbox portfolio-link">
+                      <a href="assets/img/portfolio/piano-7460435_1280.jpg" class="glightbox portfolio-link">
                         <i class="bi bi-plus-lg"></i>
                       </a>
                       <a href="#" class="portfolio-details">
@@ -659,14 +729,14 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
               <div class="portfolio-card">
                 <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/portfolio-3.webp" alt="Strategy Project" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/pottery-4618917_1280.jpg" alt="Strategy Project" class="img-fluid" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-info">
                       <span class="project-category">Brand Strategy</span>
                       <h4>Market Positioning</h4>
                     </div>
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-3.webp" class="glightbox portfolio-link">
+                      <a href="assets/img/portfolio/violin-7775182_1280.jpg" class="glightbox portfolio-link">
                         <i class="bi bi-plus-lg"></i>
                       </a>
                       <a href="#" class="portfolio-details">
@@ -688,14 +758,14 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-development">
               <div class="portfolio-card">
                 <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/portfolio-4.webp" alt="Development Project" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/playstation-1845880_1280.jpg" alt="Development Project" class="img-fluid" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-info">
                       <span class="project-category">Full Stack</span>
                       <h4>Custom Application</h4>
                     </div>
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-4.webp" class="glightbox portfolio-link">
+                      <a href="assets/img/portfolio/sheet-music-8463988_1280.jpg" class="glightbox portfolio-link">
                         <i class="bi bi-plus-lg"></i>
                       </a>
                       <a href="#" class="portfolio-details">
@@ -717,7 +787,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-creative">
               <div class="portfolio-card">
                 <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/portfolio-5.webp" alt="Creative Project" class="img-fluid" loading="lazy">
+                  <img src="assets/img/person/african-woman-9157860_1280.jpg" alt="Creative Project" class="img-fluid" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-info">
                       <span class="project-category">Art Direction</span>
@@ -738,7 +808,7 @@
                     <span class="tag">Creative</span>
                     <span class="tag">Campaign</span>
                   </div>
-                  <div class="project-year">2026</div>
+                  <div class="project-year">2024</div>
                 </div>
               </div>
             </div>
@@ -765,9 +835,9 @@
                 <div class="portfolio-meta">
                   <div class="project-tags">
                     <span class="tag">Mobile</span>
-                    <span class="tag">Computer</span>
+                    <span class="tag">UI/UX</span>
                   </div>
-                  <div class="project-year">2025</div>
+                  <div class="project-year">2023</div>
                 </div>
               </div>
             </div>
@@ -779,7 +849,7 @@
           <div class="row align-items-center">
             <div class="col-lg-8">
               <h3>Like what you see?</h3>
-              <p>Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+              <p>Then what are you waiting for? Join us Now.</p>
             </div>
             <div class="col-lg-4 text-lg-end">
               <a href="#contact" class="btn btn-accent">Let's Work Together</a>
@@ -791,12 +861,13 @@
 
     </section>
 
+
     <section id="contact" class="contact section">
 
       <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">Contact Us</span>
+        <span class="subtitle">Contact</span>
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+        <p>Feel free to get in touch for project inquiries, collaborations, teaching opportunities, or music-related work. I’m always open to discussing new ideas and opportunities.</p>
       </div>
 
       <div class="container">
@@ -810,7 +881,7 @@
               </div>
               <div>
                 <h3>Address</h3>
-                <p>p.o box 41400-299 Renen, Kisumu</p>
+                <p>P.o box 40412-390 Ranen, Migori</p>
               </div>
             </div>
 
@@ -820,7 +891,7 @@
               </div>
               <div>
                 <h3>Call Me</h3>
-                <p>0799887766</p>
+                <p>0711223344</p>
               </div>
             </div>
 
@@ -830,7 +901,7 @@
               </div>
               <div>
                 <h3>Email Me</h3>
-                <p>jobonyi23@gmail.com</p>
+                <p>elvookeyo538@gmail.com</p>
               </div>
             </div>
 
@@ -859,7 +930,7 @@
                 <div class="col-md-12 text-center">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="sent-message">Your message has been sent. We will get back to you as soon as possible .Thank you!</div>
 
                   <button type="submit">Send Message</button>
                 </div>
@@ -882,9 +953,9 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Jokatom</span>
+            <span class="sitename">Elvo Ent.</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>We’re glad you’re here. Whether you’re interested in technology, learning new skills, or exploring music and creativity, this is the place to connect, collaborate, and grow. Join us to share ideas, learn together, and be part of a community that values curiosity, creativity, and continuous learning.</p>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -908,8 +979,8 @@
           <h4>Our Services</h4>
           <ul>
             <li><a href="#">Web Design</a></li>
-            <li><a href="#">Homescience</a></li>
-            <li><a href="#">Music</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
             <li><a href="#">Marketing</a></li>
             <li><a href="#">Graphic Design</a></li>
           </ul>
@@ -917,25 +988,26 @@
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
-          <p>Kakrao Centre</p>
-          <p>Migori Kakrao</p>
-          <p>0799887766</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>0799887766</span></p>
-          <p><strong>Email:</strong> <span>info@email.com</span></p>
+          <p>12324 Migori, Kakrao</p>
+          <p>Migori, Nyanza</p>
+          <p>Kenya</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>071123324</span></p>
+          <p><strong>Email:</strong> <span>elvo.ent13564@gmail.com</span></p>
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Jokatom</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Elvo Ent.</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
 
-        Designed by <a href="https://bootstrapmade.com/">ElvisOkeyo</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
+        Designed by <a href="https://bootstrapmade.com/">Elvo made</a> | <a href="https://bootstrapmade.com/tools/">Elvo</a>
       </div>
     </div>
 
   </footer>
+
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 
